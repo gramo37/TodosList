@@ -1,0 +1,38 @@
+.todosContainer {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(142, 142, 231),
+    rgb(255, 131, 255)
+  );
+}
+
+.no-todos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.no-todos-container > div {
+  margin: 10px 0px;
+}
+
+.no-todos-container > div > a > button {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(78, 149, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.no-todos-container > div > a > button:hover {
+  background-color: aqua;
+  color: rgb(80, 80, 80);
+}

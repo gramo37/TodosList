@@ -1,0 +1,31 @@
+.create-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.create-form-container > div {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-form-container > div > textarea {
+    width: 100%;
+    height: 75vh;
+}
+
+.create-form-container > div > input {
+    width: 100%;
+    height: 5vh;
+}
+
+.create-form-container > div > button {
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
