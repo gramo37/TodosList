@@ -1,0 +1,1 @@
+1) OTP functionality not working -- need to integrate with email js
